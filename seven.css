@@ -1,0 +1,423 @@
+h1{
+font-size :89;
+color : white;
+}
+
+
+
+
+#get{
+  border: 10px solid blue;
+  color: black;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40;
+  margin: 4px 2px;
+  cursor : pointer;
+  background-color : white;
+  
+}
+
+
+#get:hover{
+background-color: cyan;
+border: none;
+padding: 20px 42px;
+
+}
+
+.hero{
+margin-bottom: 23em;
+}
+
+.break{
+margin-bottom: 10em;
+}
+
+#hero-section{
+background-color: #36d1dc;
+color: white;
+font-family : sans-sheriff;
+font-size : 30;
+animation: hidden 1000ms linear forwards;
+
+}
+
+@Keyframes hidden{
+
+0% {
+    opacity: 0;
+}
+
+50% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+
+}
+
+h2{
+background : -webkit-linear-gradient(-70deg,#db469f 0% , #2188ff 100%);
+-webkit-background-clip : text ; 
+-webkit-text-fill-color : transparent;
+}
+
+
+#back-button{
+ border : 10px inset blue;
+ padding : 10px 20px;
+ cursor : pointer;
+}
+
+
+#hero23{
+  border: 10px solid blue;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40;
+  margin: 4px 2px;
+  cursor : pointer;
+  background-color : white;
+}
+
+#hero23:hover{
+background-color: red;
+border: none;
+}
+
+#text{
+
+border : 10px solid black;
+cursor : default;
+
+}
+
+html{
+
+scroll-behavior: smooth;
+
+}
+
+#asia{
+
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#africa{
+
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#oceania{
+
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#us1{
+
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#us2{
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#ant{
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#rope{
+background-color: #36d1dc;
+    background-image: linear-gradient(
+135deg, #36d1dc 0%, #5b86e5 100%);
+    color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#suggest{
+
+background-color: white;
+padding : 100px;
+width : 600px;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#pro{
+  border: 5px inset green;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40;
+  font-family : sans-sheriff;
+  margin: 4px 2px;
+  cursor : pointer;
+  background-color : green;
+}
+
+.scroll-down{
+height : 50px;
+width : 30px;
+border  :2px solid black;
+position : relative  ;
+left : 50%;
+top  :20%;
+bottom : 20px;
+cursor : pointer;
+border-radius : 50px;
+}
+
+.scroll-down::before,
+.scroll-down::after{
+
+content : '';
+position : absolute;
+top : 10%;
+left  :50%;
+border  :2px solid black;
+height: 10px;
+width : 10px;
+transform : translate(-50% , -50%) rotate(45deg);
+border-top : transparent;
+border-left: transparent;
+animation: scroll-down 1s ease-in-out infinite;
+
+}
+
+
+.scroll-down::after{
+
+top: 20%;
+animation-delay : .3s;
+
+}
+
+@Keyframes scroll-down{
+
+0%{
+   
+   opacity : 1;
+
+  }
+30%{
+   
+   opacity : 1;
+
+  }
+60%{
+   
+   opacity : 1;
+
+  }
+100%{
+   
+   opacity : 0;
+   top : 90%;
+
+  }
+}
+
+#sub{
+
+background-color: black;
+color: #fff;
+font-family : sans-sheriff;
+font-size : 30;
+
+}
+
+#name{
+
+padding : 20px 330px;
+border-radius: 30px 5px 30px 5px;
+font-family : sans-sheriff;
+font-size : 30;
+}
+
+#n{
+padding : 20px 330px;
+border-radius: 30px 5px 30px 5px;
+font-family : sans-sheriff;
+font-size : 30;
+}
+
+#m{
+padding : 20px 330px;
+border-radius: 30px 5px 30px 5px;
+font-family : sans-sheriff;
+font-size : 30;
+}
+
+#final {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  display: none;
+}
+
+#signup{
+
+border: 10px solid blue;
+  color: black;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40;
+  margin: 4px 2px;
+  cursor : pointer;
+  background-color : white;
+  
+}
+
+#signup:hover{
+background-color: cyan;
+border: none;
+padding: 20px 42px;
+
+}
+
+.footer{
+font-size: 1.3rem;
+color: gray;
+}
+
+#need{
+border: 10px solid blue;
+  color: black;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40;
+  margin: 4px 2px;
+  background-color : white;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20;
+  font-family : sans-sheriff;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#image-style{
+
+-webkit-box-reflect: below;
+-webkit-box-reflect: below 20px;
+-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent), to(white));
+
+}
+
+element.style {
+    will-change: transform;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.typewriter{
+
+overflow: hidden;
+border-right: .10em solid red;
+white-space: nowrap;
+margin: 0 auto;
+animation: typing 3.5s steps(30,end),blink-caret 1.5s step-end infinite;
+
+}
+
+@keyframes typing{
+
+from {width:0}
+to {width: 100%}
+
+}
+
+@key frames blink-caret{
+
+from,to {border-color: transparent}
+50% {border-color : orange}
+
+}
+
+#proceed{
+overflow: hidden;
+border-right: .10em solid red;
+white-space: nowrap;
+margin: 0 auto;
+animation: typing 3.5s steps(30,end),blink-caret 1.5s step-end infinite;
+
+}
+
+#section1{
+animation: hidden 1000ms linear forwards;
+}
+
+
